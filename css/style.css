@@ -1,0 +1,53 @@
+body{
+    font-family:  "Raleway", sans-serif;
+}
+
+/*************STYLE FOR THE LOCAL TIME************/
+
+#local{
+    width: 100%;
+    background-color: #1e90ff;
+    padding: 15px 0;
+    margin: 0;
+
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+/*******STYLE FOR THE TABLE OF CITIES*************/
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid #dedede;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.col1{
+    width: 10%;
+}
+
+.col2{
+    width: 45%;
+}
+
+/****************HEADING FOR THE APP**************/
+
+h1{
+    width: 100%;
+    background-color: #aeb3b9;
+    padding: 15px 0;
+    margin: 0;
+
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
